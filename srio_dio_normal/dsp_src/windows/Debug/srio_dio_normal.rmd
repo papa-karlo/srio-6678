@@ -1,0 +1,12 @@
+-a
+-boot
+-e _c_int00
+
+ROMS
+{
+   ROM1:  org = 0x00800000, length = 0x80000, memwidth = 32, romwidth = 32
+          files = { srio_dio_normal.btbl }
+}          
+          
+          
+          
